@@ -1,0 +1,12 @@
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  padding: 5px;
+  color: hsl(0, 0%, 100%);
+}
+
+.detailed_filter {
+  margin-right: 7.5px;
+  font-size: 17px;
+}

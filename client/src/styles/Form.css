@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding: 10px;
+  font-weight: 700;
+  width: 10%;
+  margin: 10px auto 10px auto;
+}
+
+.input {
+  width: 25%;
+  margin: 0 auto 10px auto;
+}
+
+.temperaments {
+  padding-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: 20%;
+}
+
+.btn_form {
+  width: 25%;
+  margin: 20px auto;
+  font-size: 17;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn_home {
+  width: 25%;
+  margin: 10px auto;
+  font-size: 17;
+  text-decoration: none;
+}

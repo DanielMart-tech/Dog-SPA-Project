@@ -1,0 +1,31 @@
+.landing_page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/bruce-warrington-WSAOGHKEqFc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing_page_btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.1em solid #0c947d;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  letter-spacing: 00.16em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #3cb98955;
+}
+
+.landing_page_btn:hover {
+  color: whitesmoke;
+  background-color: #3cb989;
+  border-color: #979292;
+}

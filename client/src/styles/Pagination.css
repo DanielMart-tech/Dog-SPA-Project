@@ -1,0 +1,25 @@
+.pagination {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: var(--blue-yonder);
+}

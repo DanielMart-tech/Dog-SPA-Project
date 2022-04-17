@@ -1,0 +1,28 @@
+.header {
+  margin: auto;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  text-shadow: 0px -0.5px black, 0.5px 0 black, 0 0.5px black, -0.5px 0 black;
+}
+
+.create {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_create:hover {
+  background-color: hsl(217, 34%, 40%);
+}
+
+.card {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  justify-content: center;
+}

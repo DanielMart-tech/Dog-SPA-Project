@@ -1,0 +1,33 @@
+.detailed_figure {
+  border: 3px solid pink;
+  background-color: rgb(141, 160, 177);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 490px;
+  text-align: center;
+}
+
+.detailed_figura:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.detailed_image {
+  width: 350px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+h2 {
+  color: hsl(217, 54%, 11%);
+  text-align: center;
+}
+
+h3 {
+  color: hsl(215, 32%, 27%);
+  text-align: center;
+}
+
+h4 {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
