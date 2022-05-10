@@ -30,5 +30,6 @@ export function setPageNumber(page) {
 export function error(message) {
   return function (dispatch) {
     dispatch({ type: ERROR, payload: message });
+    dispatch({ type: GETDOGS, payload: [] });
   };
 }

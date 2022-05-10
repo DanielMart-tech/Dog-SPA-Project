@@ -64,7 +64,11 @@ function Form() {
     const alerts = [...nameInput, ...heightandWeightInput, ...lifeSpanInput];
 
     if (alerts.length > 0) {
-      return dispatch(error(alerts.join()));
+      dispatch(error(alerts.join()));
+      setTimeout(() => {
+        dispatch(error(""));
+      }, 5000);
+      return;
     } else {
       dispatch(error(""));
       createDog(

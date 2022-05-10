@@ -43,7 +43,7 @@ const Pagination = () => {
 
   return (
     <div className="pagination">
-      {pages.length === 1 ? null : (
+      {pages.length === 1 || pages.length === 0 ? null : (
         <div>
           <button type="button" onClick={previousPage}>
             Previous

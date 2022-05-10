@@ -9,6 +9,7 @@ function TemperamentFilter() {
 
   async function handleClick(e) {
     const character = e.target.value;
+    dispatch(error(""));
 
     if (character === "void") return null;
     else if (character === "all") dispatch(await getDogs());
